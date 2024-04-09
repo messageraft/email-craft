@@ -14,7 +14,7 @@ import {
   Section,
   Tailwind,
   Text
-} from 'jsx-email';
+} from 'email-craft';
 
 interface VercelInviteUserEmailProps {
   username?: string;

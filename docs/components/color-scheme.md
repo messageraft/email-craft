@@ -18,7 +18,7 @@ Please be sure to read our FAQ about Dark Mode in the context of email templates
 Add the component to your email template.
 
 ```jsx
-import { Body, ColorScheme, Head, Html } from 'jsx-email';
+import { Body, ColorScheme, Head, Html } from 'email-craft';
 
 const Email = () => {
   return (

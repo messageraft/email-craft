@@ -1,4 +1,4 @@
-import { jsxToString } from 'jsx-email';
+import { jsxToString } from 'email-craft';
 
 import { Template } from './test';
 

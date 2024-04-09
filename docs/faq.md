@@ -22,11 +22,11 @@ Gmail is one of the more restrictive email clients when it comes to CSS classes.
 
 ## Monorepo Setup
 
-`jsx-email` works out of the box with every monorepo setup. There are no additional or exhaustive setup steps to perform. Enjoy!
+`email-craft` works out of the box with every monorepo setup. There are no additional or exhaustive setup steps to perform. Enjoy!
 
 ## Next.js `import` or `export` Errors
 
-If you're a Next.js user, and you're trying to run `jsx-email` in a server action (or `use server`) and running into an error which looks like this:
+If you're a Next.js user, and you're trying to run `email-craft` in a server action (or `use server`) and running into an error which looks like this:
 
 ```
 ./node_modules/shikiji/dist/index.mjs
@@ -87,7 +87,7 @@ export function MyForm({ action }) {
 
 // myEmailAction.js
 'use server';
-import { render } from 'jsx-email';
+import { render } from 'email-craft';
 import { MyEmail } from '@/emails/MyEmail';
 
 export async function myEmailAction() {
@@ -98,7 +98,7 @@ export async function myEmailAction() {
 
 ### II. Disable ESM Externals
 
-Alternatively, you can also turn off `esmExternals` in `next.config.js` which will allow you to keep importing server actions which use `jsx-email` into client components:
+Alternatively, you can also turn off `esmExternals` in `next.config.js` which will allow you to keep importing server actions which use `email-craft` into client components:
 
 ```js
 /** @type {import('next').NextConfig} */
@@ -113,7 +113,7 @@ module.exports = nextConfig;
 
 ## I have another question that isn't answered here!
 
-If you have a question that isn't answered here, please [open an issue](https://github.com/shellscape/jsx-email/issues), start a [Discussion](https://github.com/shellscape/jsx-email/discussions), or [join our friendly Discord](https://discord.gg/FywZN57mTg) and ask away!
+If you have a question that isn't answered here, please [open an issue](https://github.com/messageraft/email-craft/issues), start a [Discussion](https://github.com/messageraft/email-craft/discussions), or [join our friendly Discord](https://discord.gg/FywZN57mTg) and ask away!
 
 If your question relates to a bug or code issue, we really do need you to create a minimal reproduction. Without a reproduction it is nearly impossible for us to work out what whether the problem might be in your code, your individual setup, or a bug in JSX email! The reproduction helps everyone by ensuring we're all working with the same information.
 
@@ -121,7 +121,7 @@ The reproduction should be a small, self-contained project. Try and narrow it do
 
 It's easy to do, and you can either:
 
-- Use the [`jsx-email-repro` StackBlitz reproduction template](https://stackblitz.com/fork/jsx-email-repro); or
+- Use the [`email-craft-repro` StackBlitz reproduction template](https://stackblitz.com/fork/email-craft-repro); or
 - Provide a minimal repository link. Read [this gist](https://gist.github.com/Rich-Harris/88c5fc2ac6dc941b22e7996af05d70ff) for instructions.
 
 Include the reproduction link with your question, and we'll be happy to help!

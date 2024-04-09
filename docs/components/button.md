@@ -18,7 +18,7 @@ Semantics: Quite often in the email world we talk about buttons when we actually
 Add the component to your email template. Include styles where needed.
 
 ```jsx
-import { Button } from 'jsx-email';
+import { Button } from 'email-craft';
 
 const Email = () => {
   return (

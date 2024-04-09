@@ -10,7 +10,7 @@ import {
   Preview,
   Section,
   Text
-} from 'jsx-email';
+} from 'email-craft';
 
 interface RaycastMagicLinkEmailProps {
   magicLink?: string;

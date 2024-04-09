@@ -16,7 +16,7 @@ Note, that not all email clients supports web fonts, this is why it is important
 To view all email clients that supports web fonts [see](https://www.caniemail.com/features/css-at-font-face/)
 
 ```jsx
-import { Font, Head, Html } from 'jsx-email';
+import { Font, Head, Html } from 'email-craft';
 
 const Email = () => {
   return (

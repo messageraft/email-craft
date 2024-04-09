@@ -1,4 +1,4 @@
-import { Body, Code, Container, Head, Html, Tailwind } from 'jsx-email';
+import { Body, Code, Container, Head, Html, Tailwind } from 'email-craft';
 
 export const CodeEmail = () => (
   <Html>

@@ -1,4 +1,4 @@
-import { Body, Html } from 'jsx-email';
+import { Body, Html } from 'email-craft';
 
 export const TemplateName = 'preview-props';
 

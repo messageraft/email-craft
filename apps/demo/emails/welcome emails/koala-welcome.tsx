@@ -1,4 +1,4 @@
-import { Body, Button, Container, Head, Hr, Html, Img, Preview, Section, Text } from 'jsx-email';
+import { Body, Button, Container, Head, Hr, Html, Img, Preview, Section, Text } from 'email-craft';
 
 interface KoalaWelcomeEmailProps {
   userFirstname: string;

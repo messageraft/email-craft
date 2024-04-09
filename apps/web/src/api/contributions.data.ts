@@ -7,9 +7,9 @@ export default {
     const octokit = new Octokit();
 
     const { data: releases } = await octokit.rest.pulls.list({
-      owner: 'shellscape',
+      owner: 'messageraft',
       per_page: 100,
-      repo: 'jsx-email',
+      repo: 'email-craft',
       state: 'closed'
     });
 

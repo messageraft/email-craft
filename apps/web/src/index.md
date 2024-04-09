@@ -14,5 +14,5 @@ hero:
       link: /docs/quick-start
     - theme: alt
       text: View on Github
-      link: https://github.com/shellscape/jsx-email
+      link: https://github.com/messageraft/email-craft
 ---

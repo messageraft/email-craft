@@ -13,7 +13,7 @@ import {
   Section,
   Tailwind,
   Text
-} from 'jsx-email';
+} from 'email-craft';
 import * as React from 'react';
 
 interface NetlifyWelcomeEmailProps {

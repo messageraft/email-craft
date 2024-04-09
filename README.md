@@ -1,16 +1,16 @@
-[npm]: https://img.shields.io/npm/v/jsx-email
-[npm-url]: https://www.npmjs.com/package/jsx-email
+[npm]: https://img.shields.io/npm/v/email-craft
+[npm-url]: https://www.npmjs.com/package/email-craft
 
 [![npm][npm]][npm-url]
 [![Join our Discord](https://img.shields.io/badge/join_our-Discord-5a64ea)](https://discord.gg/FywZN57mTg)
 [![libera manifesto](https://img.shields.io/badge/libera-manifesto-lightgrey.svg)](https://liberamanifesto.com)
 
 <div align="center">
-	<img src="https://raw.githubusercontent.com/shellscape/jsx-email/main/assets/npm-header.svg" alt="JSX email"/><br/><br/>
+	<img src="https://raw.githubusercontent.com/messageraft/email-craft/main/assets/npm-header.svg" alt="JSX email"/><br/><br/>
 </div>
 
 <div>
-  <img src="https://raw.githubusercontent.com/shellscape/jsx-email/main/assets/brackets.svg" alt="JSX email" valign="sub" class="brackets" />
+  <img src="https://raw.githubusercontent.com/messageraft/email-craft/main/assets/brackets.svg" alt="JSX email" valign="sub" class="brackets" />
   <svg xmlns="http://www.w3.org/2000/svg" height="20" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="brackets">
     <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
   </svg>
@@ -30,18 +30,18 @@ The packages and components that make up JSX email require an [LTS](https://gith
 
 <div>
   <br/>
-	<img src="https://raw.githubusercontent.com/shellscape/jsx-email/main/assets/clients.svg" alt="JSX email" class="clients"/><br/>
+	<img src="https://raw.githubusercontent.com/messageraft/email-craft/main/assets/clients.svg" alt="JSX email" class="clients"/><br/>
   Compatible with all modern email services
   <br/><br/>
 </div>
 
 ## Components
 
-A list of available components can be found on the [`jsx-email` Documentation](https://jsx.email/docs/introduction)
+A list of available components can be found on the [`email-craft` Documentation](https://jsx.email/docs/introduction)
 
 ## Advantages Over `react-email`
 
-The goals of this project are to provide an improved focus on Developer Experience, maintenance, fast improvements and fast releases. As such, we feel that `jsx-email` has a number of improvements and advantages over `react-email`. Those include:
+The goals of this project are to provide an improved focus on Developer Experience, maintenance, fast improvements and fast releases. As such, we feel that `email-craft` has a number of improvements and advantages over `react-email`. Those include:
 
 - [Email Client Compatibility Checking](https://jsx.email/docs/core/cli#client-compatibility-check)
 - Crazy fast Tailwind support
@@ -53,7 +53,7 @@ The goals of this project are to provide an improved focus on Developer Experien
 - Less complex, smoother Preview Server
 - Faster improvements, feature development, and releases
 - Community-driven maintenance rather than company-planning priority
-- No vendor lock-in for tools. `jsx-email` uses only generic components and tools
+- No vendor lock-in for tools. `email-craft` uses only generic components and tools
 
 ## Service Integrations
 
@@ -72,7 +72,7 @@ Please check out our [Contribution Guide](./CONTRIBUTING.md).
 
 This project was built upon prior work for `react-email` by Bu Kinoshita ([@bukinoshita](https://twitter.com/bukinoshita)) and Zeno Rocha ([@zenorocha](https://twitter.com/zenorocha)).
 
-`jsx-email` is a fork of `react-email`.
+`email-craft` is a fork of `jsx-email`.
 
 We (the maintainers) use JSX email daily. This fork was originally created as a canary channel for fixes from pull requests and issues that had been left unaddressed. JSX email grew faster, and the upstream team didn't give the project the love we felt it needed. When our help wasn't accepted, we felt a new direction was warranted.
 

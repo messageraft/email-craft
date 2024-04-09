@@ -20,7 +20,7 @@ under 90 characters.
 Add the component to your email template. Include styles where needed.
 
 ```jsx
-import { Preview } from 'jsx-email';
+import { Preview } from 'email-craft';
 
 const Email = () => {
   return <Preview>Email preview text</Preview>;

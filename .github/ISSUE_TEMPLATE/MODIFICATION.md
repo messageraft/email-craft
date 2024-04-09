@@ -11,7 +11,7 @@ about: Would you like something work differently? Have an alternative approach? 
   Or your issue may be closed.
 
   👉🏽 Need help or tech support? Please don't open an issue!
-  Head to https://discord.gg/FywZN57mTg or start a Discussion https://github.com/shellscape/jsx-email/discussions
+  Head to https://discord.gg/FywZN57mTg or start a Discussion https://github.com/messageraft/email-craft/discussions
 
   ❤️ JSX email? Please consider sponsoring our maintainers or telling others about us!
 -->

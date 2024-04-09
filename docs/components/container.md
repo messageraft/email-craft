@@ -14,7 +14,7 @@ type: component
 Add the component to your email template. Include styles where needed.
 
 ```jsx
-import { Button, Container } from 'jsx-email';
+import { Button, Container } from 'email-craft';
 
 const Email = () => {
   return (

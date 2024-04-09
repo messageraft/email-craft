@@ -1,4 +1,4 @@
-import { Body, Html, Img, Link } from 'jsx-email';
+import { Body, Html, Img, Link } from 'email-craft';
 
 export const TemplateName = 'local-assets';
 

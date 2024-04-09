@@ -21,9 +21,9 @@ Invoking the CLI without parameters or flags will produce help information in th
 ```console
 → pnpm exec email
 
-jsx-email v0.0.0
+email-craft v0.0.0
 
-A CLI for working with Email Templates made with jsx-email
+A CLI for working with Email Templates made with email-craft
 
 Usage
   $ email [...options]
@@ -37,7 +37,7 @@ Commands
 
 Options
   --help      Displays this message
-  --version   Displays the current jsx-email version
+  --version   Displays the current email-craft version
 
 Examples
   $ email
@@ -67,7 +67,7 @@ $ email build ./emails/Batman.tsx
 
 ## Check
 
-`jsx-email` can run a client compatibility check on any template, comparing it to the compatibility tables from `[caniuse.com](https://caniemail.com/) and display any email client incompatibility issues. This check is incredibly helpful in diagnosing and debugging display issues between multiple email clients.
+`email-craft` can run a client compatibility check on any template, comparing it to the compatibility tables from `[caniuse.com](https://caniemail.com/) and display any email client incompatibility issues. This check is incredibly helpful in diagnosing and debugging display issues between multiple email clients.
 
 ```console
 $ email check ./emails/Batman.tsx

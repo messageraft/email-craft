@@ -10,7 +10,7 @@ import {
   Row,
   Section,
   Text
-} from 'jsx-email';
+} from 'email-craft';
 
 interface TwitchResetPasswordEmailProps {
   username?: string;

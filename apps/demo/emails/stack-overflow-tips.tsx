@@ -12,7 +12,7 @@ import {
   Section,
   Text,
   Row
-} from 'jsx-email';
+} from 'email-craft';
 
 interface StackOverflowTipsEmailProps {
   tips?: { id: number; description: string }[];

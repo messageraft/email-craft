@@ -1,4 +1,15 @@
-import { Body, Button, Container, Head, Html, Img, Link, Preview, Section, Text } from 'jsx-email';
+import {
+  Body,
+  Button,
+  Container,
+  Head,
+  Html,
+  Img,
+  Link,
+  Preview,
+  Section,
+  Text
+} from 'email-craft';
 
 interface GithubAccessTokenEmailProps {
   username?: string;

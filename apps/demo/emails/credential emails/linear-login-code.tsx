@@ -11,7 +11,7 @@ import {
   Preview,
   Section,
   Text
-} from 'jsx-email';
+} from 'email-craft';
 
 interface LinearLoginCodeEmailProps {
   validationCode?: string;

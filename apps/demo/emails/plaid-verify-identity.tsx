@@ -1,4 +1,4 @@
-import { Body, Container, Head, Heading, Html, Img, Link, Section, Text } from 'jsx-email';
+import { Body, Container, Head, Heading, Html, Img, Link, Section, Text } from 'email-craft';
 
 interface PlaidVerifyIdentityEmailProps {
   validationCode?: string;

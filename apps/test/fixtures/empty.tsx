@@ -1,1 +1,1 @@
-// This file intentionally left black. https://github.com/shellscape/jsx-email/issues/125
+// This file intentionally left black. https://github.com/messageraft/email-craft/issues/125

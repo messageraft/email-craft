@@ -11,7 +11,7 @@ about: Something went awry and you'd like to tell us about it.
      - Parts of this template are removed
 
   👉🏽 Need help or tech support? Please don't open an issue!
-  Head to https://discord.gg/FywZN57mTg or start a Discussion https://github.com/shellscape/jsx-email/discussions
+  Head to https://discord.gg/FywZN57mTg or start a Discussion https://github.com/messageraft/email-craft/discussions
 
   ❤️ JSX email? Please consider sponsoring our maintainers or telling others about us!
 -->
@@ -27,7 +27,7 @@ about: Something went awry and you'd like to tell us about it.
   🚨 Issues WITHOUT a valid reproduction WILL BE CLOSED!
 
   Please provide one by:
-  1. Using the StackBlitz reproduction template at https://stackblitz.com/fork/jsx-email-repro
+  1. Using the StackBlitz reproduction template at https://stackblitz.com/fork/email-craft-repro
   2. Provide a minimal repository link (Read https://gist.github.com/Rich-Harris/88c5fc2ac6dc941b22e7996af05d70ff for instructions).
      Please use NPM for installing dependencies!
      These may take more time to triage than the other options.

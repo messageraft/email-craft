@@ -12,7 +12,7 @@ import {
   Section,
   Text,
   Row
-} from 'jsx-email';
+} from 'email-craft';
 
 const main = {
   fontFamily: '"Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif',

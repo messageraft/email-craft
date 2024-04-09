@@ -1,6 +1,6 @@
-// Note: This tests the fix for https://github.com/shellscape/jsx-email/issues/174
+// Note: This tests the fix for https://github.com/messageraft/email-craft/issues/174
 
-import { Html, Tailwind } from 'jsx-email';
+import { Html, Tailwind } from 'email-craft';
 // @ts-ignore
 import { definePreset, presetUno } from 'unocss';
 

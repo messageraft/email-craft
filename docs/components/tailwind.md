@@ -12,9 +12,9 @@ type: component
 Our `Tailwind` component is lightning quick and extensible. No other email template system is as flexible or renders smaller with Tailwind styles. That's because we leverage the insanely fast and flexible [UnoCSS](https://unocss.dev/) project for Atomic CSS - including Tailwind _and_ [Windi CSS](https://windicss.org/) support. Not only do you get Tailwind support, but also the vast ecosystem of UnoCSS possibilities.
 
 ::: tip
-These are docs for the unified `jsx-email` package, and the Tailwind component contained within.
+These are docs for the unified `email-craft` package, and the Tailwind component contained within.
 
-Docs for the deprecated `@jsx-email/tailwind` v3.0.0+ can be found at https://github.com/shellscape/jsx-email/blob/tailwind-v3.0.4/docs/components/tailwind.md
+Docs for the deprecated `@email-craft/tailwind` v3.0.0+ can be found at https://github.com/messageraft/email-craft/blob/tailwind-v3.0.4/docs/components/tailwind.md
 :::
 
 ## Usage
@@ -22,7 +22,7 @@ Docs for the deprecated `@jsx-email/tailwind` v3.0.0+ can be found at https://gi
 Add the component around your email body content.
 
 ```jsx
-import { Button, Tailwind } from 'jsx-email';
+import { Button, Tailwind } from 'email-craft';
 
 const Email = () => {
   return (

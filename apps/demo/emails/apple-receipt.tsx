@@ -11,7 +11,7 @@ import {
   Row,
   Section,
   Text
-} from 'jsx-email';
+} from 'email-craft';
 
 const baseUrl = 'https://jsx.email/assets/demo/';
 

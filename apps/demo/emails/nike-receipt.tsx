@@ -12,7 +12,7 @@ import {
   Row,
   Section,
   Text
-} from 'jsx-email';
+} from 'email-craft';
 
 const paddingX = {
   paddingLeft: '40px',

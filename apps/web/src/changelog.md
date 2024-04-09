@@ -58,8 +58,8 @@ const data = Object.entries(dataObject.value)
         <div :class="$style.timeline__wrapper">
             <div :class="$style.timeline__titleblock">
                 <h2 :class="$style.timeline__titleblock_title">Changelog</h2>
-                <p :class="$style.timeline__titleblock_desc">Explore the latest contributions to jsx-email </p>
-                <a href="https://github.com/shellscape/jsx-email/pulls?q=is%3Apr+is%3Aclosed+is%3Amerged" target="_blank" :class="$style.button">View on Github</a>
+                <p :class="$style.timeline__titleblock_desc">Explore the latest contributions to email-craft </p>
+                <a href="https://github.com/messageraft/email-craft/pulls?q=is%3Apr+is%3Aclosed+is%3Amerged" target="_blank" :class="$style.button">View on Github</a>
             </div>
             <div :class="$style.timeline__bar" />
             <template v-for="([day, event], index) in data">
@@ -85,7 +85,7 @@ const data = Object.entries(dataObject.value)
                     </div>
                 </div>
             </template>
-            <a href="https://github.com/shellscape/jsx-email/pulls?q=is%3Apr+is%3Aclosed+is%3Amerged" target="_blank" :class="$style.button" :style="{marginBottom: '1em'}" >View all on Github</a>
+            <a href="https://github.com/messageraft/email-craft/pulls?q=is%3Apr+is%3Aclosed+is%3Amerged" target="_blank" :class="$style.button" :style="{marginBottom: '1em'}" >View all on Github</a>
         </div>
     </div>
 

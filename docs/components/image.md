@@ -14,7 +14,7 @@ type: component
 Add the component to your email template. Include styles where needed.
 
 ```jsx
-import { Img } from 'jsx-email';
+import { Img } from 'email-craft';
 
 const Email = () => {
   return <Img src="cat.jpg" alt="Cat" width="300" height="300" />;
@@ -34,7 +34,7 @@ Just remember, for production, you'll need to host the images somewhere and
 reference them with a URL.
 
 ```jsx
-import { Img } from 'jsx-email';
+import { Img } from 'email-craft';
 
 const baseUrl = import.meta.env.DEV
   ? import.meta.resolve('../assets/')

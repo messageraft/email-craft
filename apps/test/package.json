@@ -11,7 +11,7 @@
     "@playwright/test": "^1.40.1",
     "dedent": "^1.5.1",
     "diffable-html": "^5.0.0",
-    "jsx-email": "workspace:*",
+    "email-craft": "workspace:*",
     "superstruct": "^1.0.3",
     "unocss": "^0.58.5"
   },

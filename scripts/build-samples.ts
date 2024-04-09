@@ -6,7 +6,7 @@ import { resolve } from 'path';
 import { build } from 'vite';
 
 (async () => {
-  const { viteConfig } = await import('../packages/jsx-email/src/cli/commands/vite');
+  const { viteConfig } = await import('../packages/email-craft/src/cli/commands/vite');
   await build({
     ...viteConfig,
     build: {

@@ -5,14 +5,14 @@ description: 'Use JSX email with an Email Provider of your choice'
 
 <!--@include: @/include/header.md-->
 
-Using JSX email with email providers or integrations is as simple as rendering the template you've already built. Rendering transforms your template from JSX/TSX into HTML, and optionally plain text. That's accomplished with the [jsx-email `render`](/docs/core/render) method. _We're going to assume that you've made it through the [Quick Start Guide](/docs/quick-start) before arriving here, and have an email template to use._
+Using JSX email with email providers or integrations is as simple as rendering the template you've already built. Rendering transforms your template from JSX/TSX into HTML, and optionally plain text. That's accomplished with the [email-craft `render`](/docs/core/render) method. _We're going to assume that you've made it through the [Quick Start Guide](/docs/quick-start) before arriving here, and have an email template to use._
 
 While JSX email can be used with just about any emal provider that takes a string for content input, this page will demonstrate use with a few popular providers.
 
 ## AWS SES
 
 ```tsx
-import { render } from 'jsx-email';
+import { render } from 'email-craft';
 import { SES } from '@aws-sdk/client-ses';
 
 import { BatmanTemplate } from './emails/Batman.tsx';
@@ -43,7 +43,7 @@ await ses.sendEmail({
 ## Mailersend
 
 ```tsx
-import { render } from 'jsx-email';
+import { render } from 'email-craft';
 import { MailerSend, EmailParams, Sender, Recipient } from 'mailersend';
 
 import { BatmanTemplate } from './emails/Batman.tsx';
@@ -68,7 +68,7 @@ mailerSend.email.send(params);
 ## Nodemailer
 
 ```tsx
-import { render } from 'jsx-email';
+import { render } from 'email-craft';
 import nodemailer from 'nodemailer';
 
 import { BatmanTemplate } from './emails/Batman.tsx';
@@ -95,7 +95,7 @@ await transport.sendMail({
 ## Postmark
 
 ```tsx
-import { render } from 'jsx-email';
+import { render } from 'email-craft';
 import { ServerClient } from 'postmark';
 
 import { BatmanTemplate } from './emails/Batman.tsx';
@@ -114,11 +114,11 @@ client.sendEmail({
 ## Resend
 
 ::: tip
-The `resend` package ships with support for `react-email` with its `react` property on `sendEmail`. However, `react-email` is fairly far behind `jsx-email` in terms of functionality, and its render method cannot process the advanced features in `jsx-email`. Because of that, users should run jsx-email's `render` method as shown below, to render html first, and pass that to the `sendEmail` function.
+The `resend` package ships with support for `react-email` with its `react` property on `sendEmail`. However, `react-email` is fairly far behind `email-craft` in terms of functionality, and its render method cannot process the advanced features in `email-craft`. Because of that, users should run email-craft's `render` method as shown below, to render html first, and pass that to the `sendEmail` function.
 :::
 
 ```tsx
-import { render } from 'jsx-email';
+import { render } from 'email-craft';
 import { Resend } from 'resend';
 
 import { BatmanTemplate } from './emails/Batman.tsx';
@@ -138,7 +138,7 @@ resend.sendEmail({
 ## Sendgrid
 
 ```tsx
-import { render } from 'jsx-email';
+import { render } from 'email-craft';
 import sendgrid from '@sendgrid/mail';
 
 import { BatmanTemplate } from './emails/Batman.tsx';
@@ -158,7 +158,7 @@ sendgrid.send({
 ## Plunk
 
 ```tsx
-import { render } from 'jsx-email';
+import { render } from 'email-craft';
 import Plunk from '@plunk/node';
 
 import { BatmanTemplate } from './emails/Batman.tsx';

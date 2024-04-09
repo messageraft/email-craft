@@ -12,7 +12,7 @@ dist
 **/.vitepress/cache
 
 packages/**/tsconfig.json
-packages/jsx-email/README.md
+packages/email-craft/README.md
 
 test-results
 playwright-report

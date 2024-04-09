@@ -75,8 +75,8 @@ jobs:
       - name: Build Projects
         run: |
           moon minify-preset:build
-          moon jsx-email:build
-          moon create-jsx-email:build
+          moon email-craft:build
+          moon create-email-craft:build
 
       - name: Lint Monorepo
         run: moon run repo:lint

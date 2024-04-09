@@ -1,17 +1,17 @@
 {
-  "name": "@jsx-email/minify-preset",
-  "version": "1.0.1",
+  "name": "@email-craft/minify-preset",
+  "version": "0.0.1",
   "publishConfig": {
     "access": "public"
   },
-  "description": "A rehype-minify preset for jsx-email",
+  "description": "A rehype-minify preset for email-craft",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shellscape/jsx-email.git",
+    "url": "https://github.com/messageraft/email-craft.git",
     "directory": "packages/minify-preset"
   },
-  "author": "Andrew Powell <andrew@shellscape.org>",
+  "author": "Andrew Powell <andrew@messageraft.org>",
   "homepage": "https://jsx.email/",
   "bugs": "https://github.com/rehypejs/rehype-minify/issues",
   "main": "dist/index.js",
@@ -32,6 +32,10 @@
   "engines": {
     "node": ">=18.0.0"
   },
+  "scripts": {
+    "build": "tsup --config tsup.config.ts",
+    "watch": "tsup --config tsup.config.ts --watch"
+  },
   "files": [
     "dist/**"
   ],
@@ -39,7 +43,7 @@
     "email",
     "html",
     "jsx",
-    "jsx-email",
+    "email-craft",
     "mangle",
     "min",
     "minify",
@@ -73,7 +77,7 @@
   "types": "dist/index.d.mts",
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/shellscape"
+    "url": "https://github.com/sponsors/messageraft"
   },
   "sideEffects": false
 }

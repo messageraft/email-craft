@@ -19,7 +19,7 @@ This component is required for adding elements such as `<style>` and `meta` dire
 Add the component to your email template. Include children tags where needed.
 
 ```jsx
-import { Head } from 'jsx-email';
+import { Head } from 'email-craft';
 
 const Email = () => {
   return (

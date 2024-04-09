@@ -1,4 +1,4 @@
-# @jsx-email/minify-preset ChangeLog
+# @email-craft/minify-preset ChangeLog
 
 ## v1.0.1
 

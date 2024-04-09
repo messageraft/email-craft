@@ -2,18 +2,18 @@
 [![libera manifesto](https://img.shields.io/badge/libera-manifesto-lightgrey.svg)](https://liberamanifesto.com)
 
 <div align="center">
-	<img src="https://raw.githubusercontent.com/shellscape/jsx-email/main/assets/npm-header.svg" alt="JSX email"><br/><br/>
+	<img src="https://raw.githubusercontent.com/messageraft/email-craft/main/assets/npm-header.svg" alt="JSX email"><br/><br/>
 </div>
 
 # Demo App
 
 <div>
-  <img src="https://raw.githubusercontent.com/shellscape/jsx-email/main/assets/brackets.svg" alt="JSX email" valign="sub">
+  <img src="https://raw.githubusercontent.com/messageraft/email-craft/main/assets/brackets.svg" alt="JSX email" valign="sub">
   A project to demo and test the `email preview` CLI command
   <br/>
 <div>
 
-The intent of this app is to provide a likely real-world scenario on which users might use `jsx-email` and its commands. Specifically the `preview` command, which starts a live-preview server.
+The intent of this app is to provide a likely real-world scenario on which users might use `email-craft` and its commands. Specifically the `preview` command, which starts a live-preview server.
 
 ## Requirements
 

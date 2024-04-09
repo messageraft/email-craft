@@ -10,7 +10,7 @@ import {
   Section,
   Tailwind,
   Text
-} from 'jsx-email';
+} from 'email-craft';
 
 export const TemplateName = 'Reproduction';
 

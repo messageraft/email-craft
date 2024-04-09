@@ -4,11 +4,14 @@
   "private": true,
   "description": "A project to demo and test the `email preview` CLI command",
   "license": "MIT",
+  "scripts": {
+    "preview": "email-craft preview"
+  },
   "peerDependencies": {
     "react": "^18.2.0"
   },
   "dependencies": {
-    "jsx-email": "workspace:*",
+    "email-craft": "workspace:*",
     "superstruct": "^1.0.3"
   },
   "devDependencies": {

@@ -18,7 +18,7 @@ import {
   Row,
   Section,
   Text
-} from 'jsx-email';
+} from 'email-craft';
 
 export const Template = () => (
   <Html>

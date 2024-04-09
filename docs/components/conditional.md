@@ -14,7 +14,7 @@ type: component
 Add the component to your email template. Include styles where needed.
 
 ```jsx
-import { Conditional, Head } from 'jsx-email';
+import { Conditional, Head } from 'email-craft';
 
 const Email = () => {
   return (

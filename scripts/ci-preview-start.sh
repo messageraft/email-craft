@@ -6,5 +6,5 @@
 # up in a separate directory alleviates those differences and more closesly represents a user's machine
 # which provides a more accurate test environment
 
-cd /tmp/jsx-email-test
+cd /tmp/email-craft-test
 pnpm exec email preview fixtures

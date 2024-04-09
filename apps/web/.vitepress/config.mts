@@ -56,7 +56,7 @@ export default defineConfig({
     siteTitle: '',
     socialLinks: [
       { icon: 'discord', link: 'https://discord.gg/FywZN57mTg' },
-      { icon: 'github', link: 'https://github.com/shellscape/jsx-email' }
+      { icon: 'github', link: 'https://github.com/messageraft/email-craft' }
     ]
   },
   titleTemplate: 'JSX email • :title',

@@ -12,8 +12,8 @@ workspace:
 tasks:
   build.all:
     deps:
-      - jsx-email:build
-      - create-jsx-email:build
+      - email-craft:build
+      - create-email-craft:build
 
   build.samples:
     command: email preview ./apps/demo/emails --build-path /tmp/samples.jsx.email
@@ -65,7 +65,7 @@ tasks:
       cache: false
 
   release.samples:
-    command: gh-pages -d /tmp/samples.jsx.email -u "Release Workflow <release-workflow@jsx.email>" --repo git@github.com:shellscape/samples.jsx.email.git
+    command: gh-pages -d /tmp/samples.jsx.email -u "Release Workflow <release-workflow@jsx.email>" --repo git@github.com:messageraft/samples.jsx.email.git
     deps:
       - ~:clean.dist
       - ~:build.samples

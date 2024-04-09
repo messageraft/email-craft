@@ -1,4 +1,4 @@
-import { Button, Tailwind } from 'jsx-email';
+import { Button, Tailwind } from 'email-craft';
 
 export const Template = () => (
   <Tailwind

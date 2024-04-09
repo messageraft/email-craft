@@ -13,7 +13,7 @@ type: package
 ## Usage
 
 ```jsx
-import { render } from 'jsx-email';
+import { render } from 'email-craft';
 
 import { BatmanTemplate } from './emails/Batman';
 
@@ -52,6 +52,6 @@ Beautify the HTML output for each target email
 
 ## Debugging
 
-The rendered HTML can often be difficult to trace or match back to the JSX source template. To make things easier, users can enable a debugging flag which will output jsx-email-specific `data-type` attributes in the HTML. To enable this, set an environment variable like so: `DEBUG=jsx-email:elements`.
+The rendered HTML can often be difficult to trace or match back to the JSX source template. To make things easier, users can enable a debugging flag which will output email-craft-specific `data-type` attributes in the HTML. To enable this, set an environment variable like so: `DEBUG=email-craft:elements`.
 
 Users may also wish to pass the `{ minify: false }` option to the `render` method.
