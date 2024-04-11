@@ -11,7 +11,7 @@
 
 # create-email-craft
 
-![email-craft](../../assets/brackets.svg) The starter command for JSX email.
+![email-craft](../../assets/brackets.svg) The starter command for Email Craft.
 
 <div>
   <img src="https://raw.githubusercontent.com/messageraft/email-craft/main/assets/brackets.svg" alt="JSX email" valign="sub">
@@ -27,10 +27,10 @@ This package requires an [LTS](https://github.com/nodejs/Release) Node version (
 To get started, open a new shell and run:
 
 ```sh
-npm create email-craft
+npx create-email-craft@latest
 ```
 
-This will create a new folder called `email-project` with a `email-craft` project setup.
+This will create a new folder called `email-craft-project` with a `email-craft` project setup.
 
 Install the dependencies:
 
@@ -50,7 +50,7 @@ pnpm run dev
 Alternatively, you can pass a parameter to specify the name of the folder:
 
 ```sh
-npm create email-craft <project-name>
+npx create-email-craft <project-name>
 ```
 
 ## License

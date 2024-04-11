@@ -20,7 +20,7 @@
   },
   "scripts": {
     "build": "tsc --project tsconfig.json",
-    "watch": "tsup --config tsup.config.ts --watch"
+    "watch": "tsup src/index.ts --watch --dts --sourcemap --outDir=dist/src"
   },
   "files": [
     "dist/**"

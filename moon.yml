@@ -16,20 +16,20 @@ tasks:
       - create-email-craft:build
 
   build.samples:
-    command: emailcraft preview ./apps/demo/emails --build-path /tmp/samples.jsx.email
+    command: emailcraft preview ./apps/demo/emails --build-path /tmp/samples.email.craft
     deps:
       - clean.samples
     options:
       cache: false
 
   clean.samples:
-    command: rm -rf /tmp/samples.jsx.email
+    command: rm -rf /tmp/samples.email.craft
     inputs:
       - src
       - package.json
 
   cname.samples:
-    command: echo samples.jsx.email > /tmp/samples.jsx.email/CNAME && touch /tmp/samples.jsx.email/.nojekyll
+    command: echo samples.email.craft > /tmp/samples.email.craft/CNAME && touch /tmp/samples.email.craft/.nojekyll
     options:
       cache: false
 
@@ -65,7 +65,7 @@ tasks:
       cache: false
 
   release.samples:
-    command: gh-pages -d /tmp/samples.jsx.email -u "Release Workflow <release-workflow@jsx.email>" --repo git@github.com:messageraft/samples.jsx.email.git
+    command: gh-pages -d /tmp/samples.email.craft -u "Release Workflow <release-workflow@emailcraft.dev>" --repo git@github.com:messageraft/samples.email.craft.git
     deps:
       - ~:clean.dist
       - ~:build.samples

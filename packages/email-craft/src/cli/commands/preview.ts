@@ -35,8 +35,8 @@ Starts the preview server for a directory of email templates
   --port        The local port number the preview server should run on. Default: 55420
 
 {underline Examples}
-  $ email preview ./src/templates --port 55420
-  $ email preview ./src/templates --build-path /tmp/email-preview
+  $ emailcraft preview ./src/templates --port 55420
+  $ emailcraft preview ./src/templates --build-path /tmp/email-preview
 `;
 
 export const command: CommandFn = async (argv: PreviewOptions, input) => {
