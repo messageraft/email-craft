@@ -9,9 +9,12 @@
     "dev": "email preview ./templates"
   },
   "dependencies": {
-    "email-craft": "0.0.50-a"
+    "email-craft": "0.0.50-b"
   },
   "devDependencies": {
-    "react": "^18.2.0"{{{ typeDep }}}
+    {{#typeDevDeps}}
+    "{{{name}}}": {{{version}}}
+    {{/typeDevDeps}}
+    {{^typeDevDeps}}"react": "^18.2.0"{{/typeDevDeps}}
   }
 }

@@ -41,7 +41,11 @@ const isEmpty = (path: string) => {
 };
 const { log } = console;
 const normalizePath = (filename: string) => filename.split(win32.sep).join(posix.sep);
-const typeDep = ',\n"@types/react": "^18.2.0",\n"typescript": "^5.2.2"';
+const typeDevDeps = [
+  { name: 'react', version: '"^18.2.0",' },
+  { name: '@types/react', version: '"^18.2.0",' },
+  { name: 'typescript', version: '"^5.2.2"' }
+];
 const typeProps = `\nexport type TemplateProps = {
   email: string;
   name: string;
@@ -134,7 +138,13 @@ const run = async () => {
   const jsx = projectType === 'JavaScript';
   const templates = await globby([normalizePath(join(generatorsPath, '/*.*'))]);
   const outputPath = join(root, 'templates');
-  const templateData = { name: projectName, typeDep: jsx ? '' : typeDep };
+  const templateData: { name: string; typeDevDeps?: { [key: string]: string }[] } = {
+    name: projectName
+  };
+
+  if (!jsx) {
+    templateData.typeDevDeps = typeDevDeps;
+  }
 
   log(chalk`\n{blue Creating Project} at: {dim ${root}}`);
 
