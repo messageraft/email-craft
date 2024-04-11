@@ -16,7 +16,7 @@ tasks:
       - create-email-craft:build
 
   build.samples:
-    command: email preview ./apps/demo/emails --build-path /tmp/samples.jsx.email
+    command: emailcraft preview ./apps/demo/emails --build-path /tmp/samples.jsx.email
     deps:
       - clean.samples
     options:

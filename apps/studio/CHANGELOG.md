@@ -1,4 +1,4 @@
-# @email-craft/app-preview ChangeLog
+# @email-craft/studio ChangeLog
 
 ## v1.2.5
 

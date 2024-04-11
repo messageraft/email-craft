@@ -11,8 +11,8 @@
     "url": "https://github.com/messageraft/email-craft.git",
     "directory": "packages/minify-preset"
   },
-  "author": "Andrew Powell <andrew@messageraft.org>",
-  "homepage": "https://jsx.email/",
+  "author": "Petros Kyriakou <petros@messageraft.com>",
+  "homepage": "https://emailcraft.dev/",
   "bugs": "https://github.com/rehypejs/rehype-minify/issues",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

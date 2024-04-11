@@ -7,6 +7,6 @@ workspace:
 
 tasks:
   dev:
-    command: email preview emails
+    command: emailcraft preview emails
     options:
       cache: false

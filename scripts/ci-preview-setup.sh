@@ -17,7 +17,7 @@ pnpm i
 pnpm add unocss
 
 # The dependencies below have to be pointed back to the repo
-pnpm add "@email-craft/app-preview@file:$REPO_DIR/apps/preview"
+pnpm add "@email-craft/studio@file:$REPO_DIR/apps/preview"
 pnpm add "@email-craft/minify-preset@file:$REPO_DIR/packages/minify-preset"
 
 # We have to link this due to the workspace dependency

@@ -7,7 +7,7 @@ workspace:
 
 tasks:
   dev:
-    command: email preview fixtures
+    command: emailcraft preview fixtures
     options:
       cache: false
 

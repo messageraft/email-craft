@@ -1,6 +1,6 @@
 {
   "name": "@email-craft/studio",
-  "version": "0.0.1",
+  "version": "0.0.17",
   "publishConfig": {
     "access": "public"
   },

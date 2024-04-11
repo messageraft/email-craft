@@ -2,10 +2,10 @@
   "name": "app-demo",
   "version": "0.0.0",
   "private": true,
-  "description": "A project to demo and test the `email preview` CLI command",
+  "description": "A project to demo and test the `emailcraft preview` CLI command",
   "license": "MIT",
   "scripts": {
-    "preview": "email-craft preview"
+    "preview": "emailcraft preview emails"
   },
   "peerDependencies": {
     "react": "^18.2.0"

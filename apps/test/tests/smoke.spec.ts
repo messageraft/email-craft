@@ -15,7 +15,7 @@ const timeout = { timeout: 15e3 };
 test('landing', async ({ page }) => {
   await page.goto('/');
   await expect(page).toHaveTitle('JSX Email');
-  await page.getByText('JSX Email Preview');
+  await page.getByText('Email Craft Email Preview');
 
   const landing = await page.locator('#landing');
   expect(await landing.innerHTML({ timeout: 1e4 })).toMatchSnapshot();

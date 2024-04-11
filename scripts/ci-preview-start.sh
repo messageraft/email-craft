@@ -7,4 +7,4 @@
 # which provides a more accurate test environment
 
 cd /tmp/email-craft-test
-pnpm exec email preview fixtures
+pnpm exec emailcraft preview fixtures
