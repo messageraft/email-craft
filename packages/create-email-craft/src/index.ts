@@ -21,7 +21,7 @@ interface CreateEmailArgs {
 const cancelled = () => {
   throw new Error(chalk`{red ✖} Operation cancelled`);
 };
-const defaultTargetDir = 'email-project';
+const defaultTargetDir = 'email-craft-project';
 const clearDirectory = (path: string) => {
   for (const file of readdirSync(path)) {
     // eslint-disable-next-line no-continue
@@ -93,6 +93,7 @@ const run = async () => {
               onState: (state) => {
                 targetPath = formatTargetDir(state.value) || defaultTargetDir;
               },
+              // skip prompt if argTargetDir is set
               type: argTargetDir ? null : 'text'
             },
             {
@@ -127,7 +128,7 @@ const run = async () => {
     return;
   }
 
-  const { overwrite, projectName, projectType } = result;
+  const { overwrite, projectName = argTargetDir, projectType } = result;
   const root = join(process.cwd(), targetPath);
   const generatorsPath = resolve(__dirname, '../generators');
   const jsx = projectType === 'JavaScript';
