@@ -29,7 +29,7 @@ For those not familiar with the bits above, here are some links to resources tha
 If you're starting a new project — whether that's a project solely for email templates, or a project that will eventually host additional code — our [`create-email-craft`](https://github.com/messageraft/email-craft/tree/main/packages/create-email-craft) utility is a perfect choice, and the fastest way to get started. The utility will scaffold a new project and get everything ready for developing new email templates. To begin, make sure you have a terminal (or command line) open and your current working directory is the directory you'd like to create a new project. Run the following command in your terminal (without the `$` symbol):
 
 ```console
-$ npm create email-craft
+$ npx create-email-craft@latest
 ```
 
 This command will install and execute `create-email-craft`, create a `email-project` directory, and add a starter template.
@@ -38,14 +38,14 @@ While the _Existing Projects_ section below can be safely skipped, the informati
 
 ## Existing Projects
 
-The happy path for adding JSX email to an existing project is by using the JSX email CLI:
+The happy path for adding JSX email to an existing project is by using the Email Craft CLI:
 
 <!--@include: @/include/install.md-->
 
 If you want to avoid global installation, you can use `pnpm dlx`, `npx`, or `yarn` instead like so:
 
 ```shell
-$ pnpm dlx email <command>
+$ pnpm dlx emailcraft <command>
 ```
 
 ## Create A Template
@@ -54,7 +54,7 @@ First, we'll create a directory for our email templates, and then add a new temp
 
 ```sh
 $ mkdir ./emails
-$ email create BatmanEmail --out=./emails
+$ emailcraft create BatmanEmail --out=./emails
 ```
 
 This command will create a new template named `BatmanEmail.tsx` in the `./emails` directory.
@@ -73,7 +73,7 @@ One of the major benefits of JSX email over alternatives is our incredibly slim 
 
 ```sh
 # MacOS and Linux
-$ email preview ./emails
+$ emailcraft preview ./emails
 ```
 
 ::: info
@@ -91,7 +91,7 @@ Please use `email help preview` to view optional flags, including setting the po
 The next step is to build your template. This can be done with the CLI, or with the [`render` method](/docs/core/render) in code. While most people will need to render emails dynamically at runtime using `render`, the CLI is capable of rendering both static and dynamic emails that take props as input. To build your email into an HTML document, run:
 
 ```sh
-$ email build ./emails/BatmanEmail.tsx
+$ emailcraft build ./emails/BatmanEmail.tsx
 ```
 
 ::: tip

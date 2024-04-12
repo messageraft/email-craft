@@ -13,12 +13,12 @@ about: Something went awry and you'd like to tell us about it.
   👉🏽 Need help or tech support? Please don't open an issue!
   Head to https://discord.gg/FywZN57mTg or start a Discussion https://github.com/messageraft/email-craft/discussions
 
-  ❤️ JSX email? Please consider sponsoring our maintainers or telling others about us!
+  ❤️ Email Craft? Please consider sponsoring our maintainers or telling others about us!
 -->
 
 - Component or Package Name:
 - Component or Package Version:
-- `@jsxp-email/cli` Version?:
+- `email-craft/cli` Version?:
 - Operating System (or Browser):
 - Node Version:
 - Link to reproduction _(⚠️ read below)_:

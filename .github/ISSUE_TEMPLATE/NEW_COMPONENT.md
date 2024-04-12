@@ -13,7 +13,7 @@ about: Request a new Component or Tools
   👉🏽 Need help or tech support? Please don't open an issue!
   Head to https://discord.gg/FywZN57mTg or start a Discussion https://github.com/messageraft/email-craft/discussions
 
-  ❤️ JSX email? Please consider sponsoring our maintainers or telling others about us!
+  ❤️ Email Craft? Please consider sponsoring our maintainers or telling others about us!
 -->
 
 Request Checklist:

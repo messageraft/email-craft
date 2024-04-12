@@ -13,7 +13,7 @@ about: Are the docs lacking or missing something? Do they need some new 🔥 hot
   👉🏽 Need help or tech support? Please don't open an issue!
   Head to https://discord.gg/FywZN57mTg or start a Discussion https://github.com/messageraft/email-craft/discussions
 
-  ❤️ JSX email? Please consider sponsoring our maintainers or telling others about us!
+  ❤️ Email craft? Please consider sponsoring our maintainers or telling others about us!
 -->
 
 - Component or Package Name:

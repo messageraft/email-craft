@@ -16,7 +16,7 @@ tasks:
       cache: false
 
   cname:
-    command: mkdir -p dist && echo jsx.email > dist/CNAME && touch dist/.nojekyll
+    command: mkdir -p dist && echo email-craft.dev > dist/CNAME && touch dist/.nojekyll
     options:
       cache: false
 
@@ -31,7 +31,7 @@ tasks:
       cache: false
 
   publish:
-    command: gh-pages -d dist -u "Release Workflow <release-workflow@jsx.email>"
+    command: gh-pages -d dist -u "Release Workflow <release-workflow@emailcraft.dev>"
     deps:
       - build
       - cname

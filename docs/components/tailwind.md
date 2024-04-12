@@ -13,8 +13,6 @@ Our `Tailwind` component is lightning quick and extensible. No other email templ
 
 ::: tip
 These are docs for the unified `email-craft` package, and the Tailwind component contained within.
-
-Docs for the deprecated `@email-craft/tailwind` v3.0.0+ can be found at https://github.com/messageraft/email-craft/blob/tailwind-v3.0.4/docs/components/tailwind.md
 :::
 
 ## Usage
