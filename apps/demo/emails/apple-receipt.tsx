@@ -13,7 +13,7 @@ import {
   Text
 } from 'email-craft';
 
-const baseUrl = 'https://jsx.email/assets/demo/';
+const baseUrl = 'https://emailcraft.dev/assets/demo/';
 
 const main = {
   fontFamily: '"Helvetica Neue",Helvetica,Arial,sans-serif',

@@ -41,7 +41,7 @@ export const sidebar = [
       { text: 'Introduction', link: '/docs/introduction' },
       { text: 'Quick Start', link: '/docs/quick-start' },
       { text: 'Email Providers', link: '/docs/email-providers' },
-      { text: 'Email Samples', link: 'https://samples.jsx.email' },
+      { text: 'Email Samples', link: 'https://samples.emailcraft.dev' },
       { text: 'FAQ', link: '/docs/faq' },
       { text: 'Contributing', link: '/docs/contributing' }
     ]

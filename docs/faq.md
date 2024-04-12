@@ -14,7 +14,7 @@ Handling dark and light mode in emails is tricky, and doesn't work exactly like 
 
 ## Deploying Your Preview App
 
-Can I deploy my own preview app? Absolutely! The CLI has the ability to build a custom, deployable preview app using your templates. Please see [the documentation](https://jsx.email/docs/core/cli#deploying-your-preview-app) for more information.
+Can I deploy my own preview app? Absolutely! The CLI has the ability to build a custom, deployable preview app using your templates. Please see [the documentation](https://emailcraft.dev/docs/core/cli#deploying-your-preview-app) for more information.
 
 ## Gmail and Tailwind
 
@@ -115,7 +115,7 @@ module.exports = nextConfig;
 
 If you have a question that isn't answered here, please [open an issue](https://github.com/messageraft/email-craft/issues), start a [Discussion](https://github.com/messageraft/email-craft/discussions), or [join our friendly Discord](https://discord.gg/FywZN57mTg) and ask away!
 
-If your question relates to a bug or code issue, we really do need you to create a minimal reproduction. Without a reproduction it is nearly impossible for us to work out what whether the problem might be in your code, your individual setup, or a bug in JSX email! The reproduction helps everyone by ensuring we're all working with the same information.
+If your question relates to a bug or code issue, we really do need you to create a minimal reproduction. Without a reproduction it is nearly impossible for us to work out what whether the problem might be in your code, your individual setup, or a bug in Email Craft! The reproduction helps everyone by ensuring we're all working with the same information.
 
 The reproduction should be a small, self-contained project. Try and narrow it down to just demonstrating what is causing the issue.
 

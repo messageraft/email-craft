@@ -146,7 +146,7 @@ const footerHeart = {
   margin: '0 0 32px 0'
 };
 
-const baseUrl = 'https://jsx.email/assets/demo/';
+const baseUrl = 'https://emailcraft.dev/assets/demo/';
 
 const PropDefaults: StackOverflowTipsEmailProps = {
   tips: [

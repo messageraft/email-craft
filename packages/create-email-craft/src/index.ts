@@ -179,7 +179,7 @@ Next, run:
   $ cd ${projectName}
 ${install}
 
-{magenta Check out the docs!} {underline http://jsx.email/docs/quick-start}
+{magenta Check out the docs!} {underline http://emailcraft.dev/docs/quick-start}
 `;
 
   log(footer);

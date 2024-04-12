@@ -1,6 +1,6 @@
 ---
 title: 'Text'
-description: 'A JSX email component which renders a paragraph element'
+description: 'An Email Craft component which renders a paragraph element'
 slug: text
 type: component
 ---

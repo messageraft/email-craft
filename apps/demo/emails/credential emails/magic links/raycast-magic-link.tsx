@@ -60,7 +60,7 @@ const footer = {
   marginLeft: '4px'
 };
 
-const baseUrl = 'https://jsx.email/assets/demo/';
+const baseUrl = 'https://emailcraft.dev/assets/demo/';
 
 export const PreviewProps = {
   magicLink: 'https://raycast.com'

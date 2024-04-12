@@ -4,7 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "description": "The fastest way to get started with JSX Email",
+  "description": "The fastest way to get started with Email Craft",
   "license": "MIT",
   "repository": {
     "type": "git",

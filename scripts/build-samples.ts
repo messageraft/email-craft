@@ -1,4 +1,4 @@
-// Note: This script builds the preview app for deploy to https://samples.jsx.email against
+// Note: This script builds the preview app for deploy to https://samples.emailcraft.dev against
 // apps/demo/emails
 
 import { resolve } from 'path';
@@ -10,7 +10,7 @@ import { build } from 'vite';
   await build({
     ...viteConfig,
     build: {
-      outDir: '/tmp/samples.jsx.email',
+      outDir: '/tmp/samples.emailcraft.dev',
       target: 'esnext'
     },
     configFile: false,

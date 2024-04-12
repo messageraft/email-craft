@@ -4,7 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "description": "Render JSX email components to HTML email",
+  "description": "Render Email Craft components to HTML email",
   "license": "MIT",
   "repository": {
     "type": "git",

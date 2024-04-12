@@ -1,7 +1,7 @@
 ---
 title: 'Head'
 description: |
-  A JSX email component which creates an HTML head element
+  An Email Craft component which creates an HTML head element
 slug: head
 type: component
 ---

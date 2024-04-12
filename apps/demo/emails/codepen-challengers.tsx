@@ -200,7 +200,7 @@ const footerLink = {
   cursor: 'pointer'
 };
 
-const baseUrl = 'https://jsx.email/assets/demo/';
+const baseUrl = 'https://emailcraft.dev/assets/demo/';
 
 export const TemplateName = 'Codepen Challengers';
 

@@ -1,6 +1,6 @@
 ---
 title: 'Tailwind'
-description: 'A JSX email component which enables using Tailwind-style CSS to style emails'
+description: 'An Email Craft component which enables using Tailwind-style CSS to style emails'
 slug: tailwind
 type: component
 ---

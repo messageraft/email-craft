@@ -60,7 +60,7 @@ const code = {
   color: '#333'
 };
 
-const baseUrl = 'https://jsx.email/assets/demo/';
+const baseUrl = 'https://emailcraft.dev/assets/demo/';
 
 export const PreviewProps = {
   loginCode: 'sparo-ndigo-amurt-secan'

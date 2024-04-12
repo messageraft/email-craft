@@ -65,7 +65,7 @@ const containerImageFooter = {
   padding: '45px 0 0 0'
 };
 
-const baseUrl = 'https://jsx.email/assets/demo/';
+const baseUrl = 'https://emailcraft.dev/assets/demo/';
 
 export const PreviewProps = {
   userFirstName: 'Bruce',

@@ -101,7 +101,7 @@ const footer = {
   textTransform: 'uppercase' as const
 };
 
-const baseUrl = 'https://jsx.email/assets/demo/';
+const baseUrl = 'https://emailcraft.dev/assets/demo/';
 
 export const PreviewProps = {
   validationCode: '144833'

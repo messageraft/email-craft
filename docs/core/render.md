@@ -1,6 +1,6 @@
 ---
 title: 'Render'
-description: 'Render JSX email components to HTML email'
+description: 'Render Email Craft components to HTML email'
 params: -D
 slug: render
 type: package

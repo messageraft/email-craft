@@ -65,7 +65,7 @@ const footer = {
   lineHeight: '16px'
 };
 
-const baseUrl = 'https://jsx.email/assets/demo/';
+const baseUrl = 'https://emailcraft.dev/assets/demo/';
 
 export const TemplateName = 'Stripe Welcome';
 

@@ -1,13 +1,13 @@
 ---
 title: 'Email Provider Integrations'
-description: 'Use JSX email with an Email Provider of your choice'
+description: 'Use Email Craft with an Email Provider of your choice'
 ---
 
 <!--@include: @/include/header.md-->
 
-Using JSX email with email providers or integrations is as simple as rendering the template you've already built. Rendering transforms your template from JSX/TSX into HTML, and optionally plain text. That's accomplished with the [email-craft `render`](/docs/core/render) method. _We're going to assume that you've made it through the [Quick Start Guide](/docs/quick-start) before arriving here, and have an email template to use._
+Using Email Craft with email providers or integrations is as simple as rendering the template you've already built. Rendering transforms your template from JSX/TSX into HTML, and optionally plain text. That's accomplished with the [email-craft `render`](/docs/core/render) method. _We're going to assume that you've made it through the [Quick Start Guide](/docs/quick-start) before arriving here, and have an email template to use._
 
-While JSX email can be used with just about any emal provider that takes a string for content input, this page will demonstrate use with a few popular providers.
+While Email Craft can be used with just about any emal provider that takes a string for content input, this page will demonstrate use with a few popular providers.
 
 ## AWS SES
 

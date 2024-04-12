@@ -6,7 +6,7 @@
 [![libera manifesto](https://img.shields.io/badge/libera-manifesto-lightgrey.svg)](https://liberamanifesto.com)
 
 <div align="center">
-	<img src="https://raw.githubusercontent.com/messageraft/email-craft/main/assets/npm-header.svg" alt="JSX email"><br/><br/>
+	<img src="https://raw.githubusercontent.com/messageraft/email-craft/main/assets/npm-header.svg" alt="Email Craft"><br/><br/>
 </div>
 
 # create-email-craft
@@ -14,8 +14,8 @@
 ![email-craft](../../assets/brackets.svg) The starter command for Email Craft.
 
 <div>
-  <img src="https://raw.githubusercontent.com/messageraft/email-craft/main/assets/brackets.svg" alt="JSX email" valign="sub">
-  The fastest way to get started with JSX email. A utility for quickly scaffolding new JSX email projects.
+  <img src="https://raw.githubusercontent.com/messageraft/email-craft/main/assets/brackets.svg" alt="Email Craft" valign="sub">
+  The fastest way to get started with Email Craft. A utility for quickly scaffolding new Email Craft projects.
 <div><br>
 
 ## Requirements

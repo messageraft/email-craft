@@ -32,7 +32,7 @@ export const Template = () => (
     <Body>
       <Container>
         <Section>
-          <Button href="https://jsx.email">Button Content</Button>
+          <Button href="https://emailcraft.dev">Button Content</Button>
           <Font
             fontFamily="Roboto"
             fallbackFontFamily="Verdana"
@@ -46,7 +46,7 @@ export const Template = () => (
           <Heading>Heading Content</Heading>
           <Hr />
           <Img src="https://about.google/assets-main/img/glue-google-solid-logo.svg" />
-          <Link href="https://jsx.email"></Link>
+          <Link href="https://emailcraft.dev"></Link>
           <Markdown
             markdownCustomStyles={{
               codeInline: { background: 'grey' },

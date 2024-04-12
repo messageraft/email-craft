@@ -1,6 +1,6 @@
 ---
 title: Code
-description: A JSX email component which displays a syntax-highlighted code block using <a href="https://shiki.matsu.io/">Shiki</a>
+description: An Email Craft component which displays a syntax-highlighted code block using <a href="https://shiki.matsu.io/">Shiki</a>
 slug: code
 ---
 

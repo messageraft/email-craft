@@ -88,7 +88,7 @@ const code = {
   color: '#3c4149'
 };
 
-const baseUrl = 'https://jsx.email/assets/demo/';
+const baseUrl = 'https://emailcraft.dev/assets/demo/';
 
 export const PreviewProps = {
   validationCode: 'tt226-5398x'

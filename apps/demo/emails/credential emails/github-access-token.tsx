@@ -70,7 +70,7 @@ const footer = {
   marginTop: '60px'
 };
 
-const baseUrl = 'https://jsx.email/assets/demo/';
+const baseUrl = 'https://emailcraft.dev/assets/demo/';
 
 export const PreviewProps = {
   username: 'Batman'

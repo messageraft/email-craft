@@ -74,7 +74,7 @@ const hr = {
   margin: '20px 0'
 };
 
-const baseUrl = 'https://jsx.email/assets/demo/';
+const baseUrl = 'https://emailcraft.dev/assets/demo/';
 
 export const TemplateName = 'Google Play Policy Update';
 

@@ -93,7 +93,7 @@ const text = {
   lineHeight: '24px'
 };
 
-const baseUrl = 'https://jsx.email/assets/demo/';
+const baseUrl = 'https://emailcraft.dev/assets/demo/';
 
 export const PreviewProps = {
   validationCode: 'DJZ-TLX'

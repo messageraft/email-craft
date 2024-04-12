@@ -5,7 +5,7 @@ description: 'Quick Start'
 
 ## Quick Start
 
-In this doc you'll find information on quickly getting started using JSX email. For more in-depth information, please see the other sections of our Documentation.
+In this doc you'll find information on quickly getting started using Email Craft. For more in-depth information, please see the other sections of our Documentation.
 
 ::: info
 This guide, along with the rest of the documentation here, assume that the reader has fundamental Node and NPM skills and is familiar with using command line tools on Window, Linux, or Mac OS.
@@ -34,11 +34,11 @@ $ npx create-email-craft@latest
 
 This command will install and execute `create-email-craft`, create a `email-project` directory, and add a starter template.
 
-While the _Existing Projects_ section below can be safely skipped, the information beneath it is useful and worth giving a read before working with JSX email, as it contains infmroation on the project and template that was just created.
+While the _Existing Projects_ section below can be safely skipped, the information beneath it is useful and worth giving a read before working with Email Craft, as it contains infmroation on the project and template that was just created.
 
 ## Existing Projects
 
-The happy path for adding JSX email to an existing project is by using the Email Craft CLI:
+The happy path for adding Email Craft to an existing project is by using the Email Craft CLI:
 
 <!--@include: @/include/install.md-->
 
@@ -65,11 +65,11 @@ If you'd rather create a `.jsx` file, use the `--jsx` flag
 
 ## Superstruct
 
-[Superstruct](https://docs.superstructjs.org/) is a fantastic validation package that predates `zod` and `yup`. It's smaller and faster than alternatives and uses a delightful API without chaining or cruft. JSX email uses it as an option for defining `prop` types and creating props for use in email previews.
+[Superstruct](https://docs.superstructjs.org/) is a fantastic validation package that predates `zod` and `yup`. It's smaller and faster than alternatives and uses a delightful API without chaining or cruft. Email Craft uses it as an option for defining `prop` types and creating props for use in email previews.
 
 ## Email Previews
 
-One of the major benefits of JSX email over alternatives is our incredibly slim and fast preview server, which requires no additional dependency installation, complex mounting, or difficult setup rules for monorepos. To run the preview server, run the following command in your terminal:
+One of the major benefits of Email Craft over alternatives is our incredibly slim and fast preview server, which requires no additional dependency installation, complex mounting, or difficult setup rules for monorepos. To run the preview server, run the following command in your terminal:
 
 ```sh
 # MacOS and Linux

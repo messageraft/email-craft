@@ -1,6 +1,6 @@
 ---
 title: Column
-description: A JSX email component which displays columns that separate content bounaries vertically
+description: An Email Craft component which displays columns that separate content bounaries vertically
 slug: column
 type: component
 ---

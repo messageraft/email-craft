@@ -53,7 +53,7 @@ const anchor = {
   textDecoration: 'underline'
 };
 
-const baseUrl = 'https://jsx.email/assets/demo/';
+const baseUrl = 'https://emailcraft.dev/assets/demo/';
 
 export const PreviewProps = {
   userFirstname: 'Bruce',

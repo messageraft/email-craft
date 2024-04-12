@@ -24,7 +24,7 @@ Request Checklist:
 -->
 
 - [ ] I have searched https://npmjs.com/ before opening this issue
-- [ ] I have searched https://jsx.email/docs before opening this issue
+- [ ] I have searched https://emailcraft.dev/docs before opening this issue
 
 ### New Component/Tool Use Case
 

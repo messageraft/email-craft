@@ -70,7 +70,7 @@ const link = {
   textDecoration: 'underline'
 };
 
-const baseUrl = 'https://jsx.email/assets/demo/';
+const baseUrl = 'https://emailcraft.dev/assets/demo/';
 
 export const PreviewProps = {
   username: 'Batman',

@@ -1,6 +1,6 @@
 ---
 title: 'CLI'
-description: 'The Command Line Interface and developer tooling for JSX email'
+description: 'The Command Line Interface and developer tooling for Email Craft'
 params: -D
 slug: cli
 type: package
@@ -111,7 +111,7 @@ Check Complete: 14 error(s), 20 warning(s)
 
 ## Preview
 
-JSX email ships with a Preview Tool as part of the CLI. Our Preview is fast, simple, and smooth. It doesn't require installing any crazy dependencies, downloading additional "clients," or copying your project's dependencies. It just works. And the best part: it works with monorepos out of the box.
+Email Craft ships with a Preview Tool as part of the CLI. Our Preview is fast, simple, and smooth. It doesn't require installing any crazy dependencies, downloading additional "clients," or copying your project's dependencies. It just works. And the best part: it works with monorepos out of the box.
 
 To use the Preview Tool, open your terminal and navigate to your project. We're assuming you've already installed the CLI as shown above, and that you've already run `email create` to create an email in an `emails` directory.
 

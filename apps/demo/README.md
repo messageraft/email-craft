@@ -2,13 +2,13 @@
 [![libera manifesto](https://img.shields.io/badge/libera-manifesto-lightgrey.svg)](https://liberamanifesto.com)
 
 <div align="center">
-	<img src="https://raw.githubusercontent.com/messageraft/email-craft/main/assets/npm-header.svg" alt="JSX email"><br/><br/>
+	<img src="https://raw.githubusercontent.com/messageraft/email-craft/main/assets/npm-header.svg" alt="Email Craft"><br/><br/>
 </div>
 
 # Demo App
 
 <div>
-  <img src="https://raw.githubusercontent.com/messageraft/email-craft/main/assets/brackets.svg" alt="JSX email" valign="sub">
+  <img src="https://raw.githubusercontent.com/messageraft/email-craft/main/assets/brackets.svg" alt="Email Craft" valign="sub">
   A project to demo and test the `email preview` CLI command
   <br/>
 <div>

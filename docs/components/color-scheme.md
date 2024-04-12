@@ -1,6 +1,6 @@
 ---
 title: 'ColorScheme'
-description: A JSX email component which provides meta and style foundations for color scheme support
+description: An Email Craft component which provides meta and style foundations for color scheme support
 slug: color-scheme
 type: component
 ---
@@ -8,7 +8,7 @@ type: component
 <!--@include: @/include/header.md-->
 
 ::: tip
-Please be sure to read our FAQ about Dark Mode in the context of email templates: https://jsx.email/docs/faq#dark-and-light-mode
+Please be sure to read our FAQ about Dark Mode in the context of email templates: https://emailcraft.dev/docs/faq#dark-and-light-mode
 :::
 
 <!--@include: @/include/install.md-->

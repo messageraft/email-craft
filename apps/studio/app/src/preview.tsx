@@ -45,7 +45,7 @@ export const Preview = ({ html, jsx, plainText, templateParts, title }: PreviewP
   let iframeStyle = {};
 
   React.useEffect(() => {
-    document.title = `JSX email • ${title}`;
+    document.title = `Email Craft • ${title}`;
 
     if (view && validViews.includes(view)) setActiveView(view);
   }, [searchParams]);

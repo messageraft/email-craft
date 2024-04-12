@@ -22,28 +22,28 @@
 
 ## Getting Started
 
-Everything to know about the components, props, and usage is available within our [Documentation Site](https://jsx.email/docs/introduction). Please give that a read and let us know if there's anything we can help with.
+Everything to know about the components, props, and usage is available within our [Documentation Site](https://emailcraft.dev/docs/introduction). Please give that a read and let us know if there's anything we can help with.
 
 ## Requirements
 
-The packages and components that make up JSX email require an [LTS](https://github.com/nodejs/Release) Node version (v18.0.0+) and React v18.2.0+
+The packages and components that make up Email Craft require an [LTS](https://github.com/nodejs/Release) Node version (v18.0.0+) and React v18.2.0+
 
 <div>
   <br/>
-	<img src="https://raw.githubusercontent.com/messageraft/email-craft/main/assets/clients.svg" alt="JSX email" class="clients"/><br/>
+	<img src="https://raw.githubusercontent.com/messageraft/email-craft/main/assets/clients.svg" alt="Email Craft" class="clients"/><br/>
   Compatible with all modern email services
   <br/><br/>
 </div>
 
 ## Components
 
-A list of available components can be found on the [`email-craft` Documentation](https://jsx.email/docs/introduction)
+A list of available components can be found on the [`email-craft` Documentation](https://emailcraft.dev/docs/introduction)
 
 ## Advantages Over `react-email`
 
 The goals of this project are to provide an improved focus on Developer Experience, maintenance, fast improvements and fast releases. As such, we feel that `email-craft` has a number of improvements and advantages over `react-email`. Those include:
 
-- [Email Client Compatibility Checking](https://jsx.email/docs/core/cli#client-compatibility-check)
+- [Email Client Compatibility Checking](https://emailcraft.dev/docs/core/cli#client-compatibility-check)
 - Crazy fast Tailwind support
 - Support for `<Suspense>` and `async` within Components
 - Exclusive Components
@@ -57,8 +57,8 @@ The goals of this project are to provide an improved focus on Developer Experien
 
 ## Service Integrations
 
-Email built and rendered with JSX email can be used with any email provider that provides an API for sending email as a `String`.
-This includes [AWS SES](https://aws.amazon.com/ses), [Loops](https://loops.so), [Nodemailer](https://nodemailer.com), [Postmark](https://postmarkapp.com),[Resend](https://resend.com), [Plunk](https://www.useplunk.com/), and [SendGrid](https://sendgrid.com). See our documentation on [Email Providers](https://jsx.email/docs/email-providers) for more info and example usage.
+Email built and rendered with Email Craft can be used with any email provider that provides an API for sending email as a `String`.
+This includes [AWS SES](https://aws.amazon.com/ses), [Loops](https://loops.so), [Nodemailer](https://nodemailer.com), [Postmark](https://postmarkapp.com),[Resend](https://resend.com), [Plunk](https://www.useplunk.com/), and [SendGrid](https://sendgrid.com). See our documentation on [Email Providers](https://emailcraft.dev/docs/email-providers) for more info and example usage.
 
 <!-- FIXME: Write and link to example code for integrations on the docs site -->
 

@@ -1,6 +1,6 @@
 ---
 title: 'Body'
-description: 'A JSX email component for using a React `Body` component to wrap email content'
+description: 'An Email Craft component for using a React `Body` component to wrap email content'
 slug: body
 type: component
 ---
