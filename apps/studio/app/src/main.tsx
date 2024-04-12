@@ -41,7 +41,7 @@ const parseName = (path: string) => {
 };
 
 // @ts-expect-error
-const relativePath = `${__JSX_EMAIL_RELATIVE_PATH__}/`;
+const relativePath = `${__EMAIL_CRAFT_RELATIVE_PATH__}/`;
 const modules = import.meta.glob('@/**/*.{jsx,tsx}', { eager: true });
 const sources = import.meta.glob('@/**/*.{jsx,tsx}', { as: 'raw', eager: true });
 const pathLookup = Object.keys(modules).reduce((acc, path) => {

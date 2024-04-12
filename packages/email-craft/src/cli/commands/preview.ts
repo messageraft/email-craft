@@ -66,7 +66,7 @@ const getConfig = async (targetPath: string, argv: PreviewOptions) => {
     configFile: false,
     ...viteConfig,
     define: {
-      __JSX_EMAIL_RELATIVE_PATH__: JSON.stringify(realtivePath),
+      __EMAIL_CRAFT_RELATIVE_PATH__: JSON.stringify(realtivePath),
       ...viteConfig.define
     },
     resolve: {
