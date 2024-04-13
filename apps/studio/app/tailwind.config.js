@@ -31,24 +31,6 @@ module.exports = {
   ],
   plugins: [iOsHeight],
   theme: {
-    colors: {
-      'button-bg': '#3d3a3a',
-      'code-bg': '#353436',
-      'cta-bg': '#ffd152',
-      'cta-bg-hover': '#ffc31f',
-      'cta-text': '#343233',
-      'dark-bg': '#343233',
-      'dark-bg-border': '#1a191a',
-      'dark-bg-text': '#efdab9',
-      'darker-bg': '#2c2a2b',
-      'error-text': '#f87171',
-      'light-bg': '#efeae1',
-      'light-bg-text': '#574c4f',
-      link: '#ffd152',
-      'link-hover': '#ebac00',
-      'select-item-hover': '#e7dfd2',
-      'tab-bg': '#47504E'
-    },
     extend: {
       backgroundImage: {
         gradient:
@@ -59,20 +41,16 @@ module.exports = {
           'linear-gradient(45deg, rgba(255,255,255,0) 45%,rgba(255,255,255,1) 50%,rgba(255,255,255,0) 55%,rgba(255,255,255,0) 100%)'
       },
       colors: {
-        cyan: {
-          1: colors.cyanDarkA.cyanA1,
-          2: colors.cyanDarkA.cyanA2,
-          3: colors.cyanDarkA.cyanA3,
-          4: colors.cyanDarkA.cyanA4,
-          5: colors.cyanDarkA.cyanA5,
-          6: colors.cyanDarkA.cyanA6,
-          7: colors.cyanDarkA.cyanA7,
-          8: colors.cyanDarkA.cyanA8,
-          9: colors.cyanDarkA.cyanA9,
-          10: colors.cyanDarkA.cyanA10,
-          11: colors.cyanDarkA.cyanA11,
-          12: colors.cyanDarkA.cyanA12
-        },
+        'button-bg': '#3d3a3a',
+        'code-bg': '#353436',
+        'cta-bg': '#2563eb',
+        'cta-bg-hover': '#1e40af',
+        'cta-text': '#FFFFFF',
+        'dark-bg': '#1c1917',
+        'dark-bg-border': '#1a191a',
+        'dark-bg-text': '#FFFFFF',
+        'darker-bg': '#2c2a2b',
+        'error-text': '#f87171',
         slate: {
           1: colors.slateDarkA.slateA1,
           2: colors.slateDarkA.slateA2,

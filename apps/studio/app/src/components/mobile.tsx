@@ -11,8 +11,8 @@ interface MobileProps extends React.ComponentPropsWithoutRef<'header'> {
 
 const Group = (key: keyof typeof devices) => {
   const item = classnames(
-    'relative flex items-center px-4 py-2 rounded-md text-xs text-light-bg-text',
-    '!outline-none !select-none data-[highlighted]:bg-select-item-hover'
+    'relative flex items-center px-4 py-2 rounded-md text-xs text-white',
+    '!outline-none !select-none data-[highlighted]:bg-gray-600'
   );
   const items = devices[key].map((device) => (
     <Select.Item className={item} value={`${device.width},${device.height}`} key={device.name}>
@@ -27,12 +27,12 @@ const Group = (key: keyof typeof devices) => {
 };
 
 const button = 'flex items-center justify-center';
-const chevron = `${button} h-[25px] bg-light-bg text-light-bg-text`;
-const list = 'bg-light-bg text-light-bg-text p-2 rounded-md shadow-md';
+const chevron = `${button} h-[25px] text-white`;
+const list = 'bg-gray-500 text-white p-2 rounded-md shadow-md';
 const trigger = classnames(
   'inline-flex select-none items-center justify-center rounded-md px-4 py-2 text-xs font-medium',
-  'bg-light-bg text-light-bg-text !outline-none m-auto',
-  'hover:bg-select-item-hover'
+  'bg-gray-500 text-white !outline-none m-auto',
+  'hover:bg-gray-600'
 );
 
 export const Mobile = React.forwardRef<React.ElementRef<'header'>, Readonly<MobileProps>>(
@@ -59,7 +59,7 @@ export const Mobile = React.forwardRef<React.ElementRef<'header'>, Readonly<Mobi
             </Select.ScrollUpButton>
             <Select.Viewport>
               {Group('phones')}
-              <Select.Separator className="bg-light-bg-text h-px m-3 opacity-20" />
+              <Select.Separator className="text-white h-px m-3 opacity-20" />
               {Group('tablets')}
             </Select.Viewport>
             <Select.ScrollDownButton className={chevron}>
