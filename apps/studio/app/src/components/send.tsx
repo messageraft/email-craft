@@ -79,7 +79,7 @@ export const Send: React.FC<SendProps> = ({ markup }) => {
       <Popover.Portal>
         <Popover.Content
           align="end"
-          className="w-80 -mt-10 p-3 bg-dark-bg border border-dark-bg-border text-dark-bg-text rounded-lg"
+          className="w-80 -mt-10 p-3 bg-white border border-blue-500 text-black rounded-lg"
         >
           <Popover.Close
             aria-label="Close"
@@ -96,7 +96,7 @@ export const Send: React.FC<SendProps> = ({ markup }) => {
               </label>
               <input
                 autoFocus={true}
-                className="appearance-none rounded-lg px-2 py-1 mb-3 outline-none w-full bg-slate-3 border placeholder-slate-10 border-slate-6 text-slate-12 text-sm focus:ring-1 focus:ring-slate-12 transition duration-300 ease-in-out"
+                className="appearance-none rounded-lg px-2 py-1 mb-3 outline-none w-full bg-slate-3 border placeholder-gray-500 border-black text-black text-sm focus:ring-1 focus:ring-slate-12 transition duration-300 ease-in-out"
                 onChange={(e) => setTo(e.target.value)}
                 defaultValue={to}
                 placeholder="you@example.com"
@@ -122,7 +122,7 @@ export const Send: React.FC<SendProps> = ({ markup }) => {
                 <button
                   type="submit"
                   disabled={to.length === 0 || isSending}
-                  className="disabled:bg-slate-11 disabled:border-transparent outline-none text-sm font-medium px-3 py-1 transition ease-in-out duration-200 relative bg-cta-bg text-cta-text rounded-md"
+                  className="disabled:bg-gray-300 disabled:border-transparent outline-none text-sm font-medium px-3 py-1 transition ease-in-out duration-200 relative bg-cta-bg text-cta-text rounded-md"
                 >
                   {isSending ? <IconLoader className="animate-spin" /> : 'Send'}
                 </button>
