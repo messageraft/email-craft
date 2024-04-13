@@ -66,71 +66,79 @@ export const Send: React.FC<SendProps> = ({ markup }) => {
   };
 
   return (
-    <Popover.Root open={open} onOpenChange={setOpen}>
-      <div className="rounded bg-darker-bg absolute top-[20px] right-[20px] w-7 h-7 animate-[ping_1s_cubic-bezier(0,0,0.2,1)_2]" />
-      <Popover.Trigger asChild>
-        <IconButton
-          className="bg-cta-bg hover:bg-cta-bg-hover cta-text p-1 rounded focus:text-dark-bg-text ease-in-out transition duration-200 focus:outline-none focus:ring-2 focus:ring-gray-8 hover:text-dark-bg-text absolute top-[20px] right-[20px] hidden md:block"
-          title="Send preview email"
-        >
-          <IconPaperAirplane />
-        </IconButton>
-      </Popover.Trigger>
-      <Popover.Portal>
-        <Popover.Content
-          align="end"
-          className="w-80 -mt-10 p-3 bg-white border border-blue-500 text-black rounded-lg"
-        >
-          <Popover.Close
-            aria-label="Close"
-            className="absolute right-2 flex items-start justify-center w-6 h-6 text-xs transition duration-300 ease-in-out rounded-full"
+    <>
+      {open && (
+        <div className="rounded bg-black/40 absolute top-0 right-0 left-0 bottom-0 w-full h-full animate-bg-fade-in" />
+      )}
+      <Popover.Root open={open} onOpenChange={setOpen}>
+        <div className="rounded bg-darker-bg absolute top-[20px] right-[20px] w-7 h-7 animate-[ping_1s_cubic-bezier(0,0,0.2,1)_2]" />
+        <Popover.Trigger asChild>
+          <IconButton
+            className="bg-cta-bg hover:bg-cta-bg-hover cta-text p-1 rounded focus:text-dark-bg-text ease-in-out transition duration-200 focus:outline-none focus:ring-2 focus:ring-gray-8 hover:text-dark-bg-text absolute top-[20px] right-[20px] hidden md:block"
+            title="Send preview email"
           >
-            ✕
-          </Popover.Close>
-          {showEmailSent ? (
-            <p className="text-sm">Your template was sent!</p>
-          ) : (
-            <form onSubmit={onFormSubmit}>
-              <label htmlFor="to" className="text-xs uppercase mb-2 block">
-                Recipient
-              </label>
-              <input
-                autoFocus={true}
-                className="appearance-none rounded-lg px-2 py-1 mb-3 outline-none w-full bg-slate-3 border placeholder-gray-500 border-black text-black text-sm focus:ring-1 focus:ring-slate-12 transition duration-300 ease-in-out"
-                onChange={(e) => setTo(e.target.value)}
-                defaultValue={to}
-                placeholder="you@example.com"
-                type="email"
-                id="to"
-                required
-              />
+            <IconPaperAirplane />
+          </IconButton>
+        </Popover.Trigger>
+        <Popover.Portal>
+          <Popover.Content
+            align="end"
+            className="w-80 p-0.5 mt-2 bg-gradient-to-r from-indigo-400 via-purple-300 to-blue-500 text-black rounded-lg relative"
+          >
+            <Popover.Close
+              aria-label="Close"
+              className="absolute top-3 right-2 flex items-start justify-center w-6 h-6 text-xs transition duration-300 ease-in-out rounded-full text-white"
+            >
+              ✕
+            </Popover.Close>
 
-              <p className="inline-block mb-3 text-error-text">{submitError}</p>
-              <div className="flex items-center justify-between">
-                <p className="inline-block text-xs">
-                  Powered by{' '}
-                  <a
-                    className="hover:text-slate-12 transition ease-in-out duration-300"
-                    href="https://www.useplunk.com"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Plunk
-                    <PlunkLogo height={20} width={20} className="ml-1 inline" />
-                  </a>
-                </p>
-                <button
-                  type="submit"
-                  disabled={to.length === 0 || isSending}
-                  className="disabled:bg-gray-300 disabled:border-transparent outline-none text-sm font-medium px-3 py-1 transition ease-in-out duration-200 relative bg-cta-bg text-cta-text rounded-md"
-                >
-                  {isSending ? <IconLoader className="animate-spin" /> : 'Send'}
-                </button>
-              </div>
-            </form>
-          )}
-        </Popover.Content>
-      </Popover.Portal>
-    </Popover.Root>
+            <div className="bg-code-bg p-3 rounded-lg text-white">
+              {showEmailSent ? (
+                <p className="text-sm">Your template was sent!</p>
+              ) : (
+                <form onSubmit={onFormSubmit}>
+                  <label htmlFor="to" className="text-xs uppercase mb-2 block">
+                    Recipient
+                  </label>
+                  <input
+                    autoFocus={true}
+                    className="appearance-none rounded-lg px-2 py-1 mb-3 outline-none w-full bg-slate-3 border border-black placeholder-gray-500  text-white text-sm focus:ring-2 focus:ring-gray-500 transition duration-300 ease-in-out"
+                    onChange={(e) => setTo(e.target.value)}
+                    defaultValue={to}
+                    placeholder="you@example.com"
+                    type="email"
+                    id="to"
+                    required
+                  />
+
+                  <p className="inline-block mb-3 text-error-text">{submitError}</p>
+                  <div className="flex items-center justify-between">
+                    <p className="inline-block text-xs">
+                      Powered by{' '}
+                      <a
+                        className="hover:text-slate-12 transition ease-in-out duration-300"
+                        href="https://www.useplunk.com"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Plunk
+                        <PlunkLogo height={20} width={20} className="ml-1 inline" />
+                      </a>
+                    </p>
+                    <button
+                      type="submit"
+                      disabled={to.length === 0 || isSending}
+                      className="disabled:bg-gray-400 disabled:border-transparent outline-none text-sm font-medium px-3 py-1 transition ease-in-out duration-200 relative bg-cta-bg text-cta-text rounded-md"
+                    >
+                      {isSending ? <IconLoader className="animate-spin" /> : 'Send'}
+                    </button>
+                  </div>
+                </form>
+              )}
+            </div>
+          </Popover.Content>
+        </Popover.Portal>
+      </Popover.Root>
+    </>
   );
 };

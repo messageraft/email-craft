@@ -207,3 +207,7 @@
 .animate-nav-fade-in {
   animation: nav-fade-in 500ms ease-in-out forwards;
 }
+
+.animate-bg-fade-in {
+  animation: nav-fade-in 100ms ease-in-out forwards;
+}
