@@ -145,7 +145,7 @@ img.clients {
   background: linear-gradient(to right top, #2563eb, #406aee, #5372f0, #6279f3, #7081f5, #8087f6, #8f8ef8, #9c95f9, #ad9cfa, #bda4fb, #cbacfd, #d8b4fe);
   padding: 2px;
   border-radius: 16px;
-  box-shadow: 0px 0px 10px 10px  rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.1);
 }
 .VPHomeHero img.home-hero {
   border-radius: 16px;
