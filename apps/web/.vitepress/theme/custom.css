@@ -90,14 +90,9 @@ img.clients {
   text-decoration: none !important;
 }
 
-.VPContent {
-  background-repeat: no-repeat;
-  background-image: url(/landing-bg.svg);
-  background-position: calc(100% + 800px) center;
-}
 .VPContent.is-home {
   background-position: calc(100% + 570px) center;
-  width: 1665px !important;
+  max-width: 1665px !important;
 }
 
 .VPDoc.has-aside .content-container {
@@ -141,10 +136,17 @@ img.clients {
   font-weight: 500;
   padding: 0.1em 2em;
 }
-.VPHomeHero img.home-hero {
+.VPHomeHero .home-hero-wrapper {
   position: absolute;
-  right: -14%;
-  top: 60%;
+  right: -25%;
+  top: 70%;
+  background: linear-gradient(to right top, #2563eb, #406aee, #5372f0, #6279f3, #7081f5, #8087f6, #8f8ef8, #9c95f9, #ad9cfa, #bda4fb, #cbacfd, #d8b4fe);
+  padding: 2px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 10px 10px  rgba(255, 255, 255, 0.1);
+}
+.VPHomeHero img.home-hero {
+  border-radius: 16px;
 }
 
 .VPNavBar {
@@ -203,7 +205,7 @@ img.clients {
 }
 
 @media (max-width: 960px) {
-  .VPHomeHero img.home-hero {
+  .VPHomeHero .home-hero-wrapper {
     display: block;
     margin-top: 1em;
     position: relative;
