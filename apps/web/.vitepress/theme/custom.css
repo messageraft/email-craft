@@ -89,7 +89,9 @@ img.clients {
   font-weight: inherit !important;
   text-decoration: none !important;
 }
-
+.VPContent {
+  background-origin: border-box;
+}
 .VPContent.is-home {
   background-position: calc(100% + 570px) center;
   max-width: 1665px !important;
