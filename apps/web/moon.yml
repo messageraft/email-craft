@@ -16,7 +16,7 @@ tasks:
       cache: false
 
   cname:
-    command: mkdir -p dist && echo email-craft.dev > dist/CNAME && touch dist/.nojekyll
+    command: mkdir -p dist && echo emailcraft.dev > dist/CNAME && touch dist/.nojekyll
     options:
       cache: false
 

@@ -97,6 +97,7 @@ img.clients {
 }
 .VPContent.is-home {
   background-position: calc(100% + 570px) center;
+  width: 1665px !important;
 }
 
 .VPDoc.has-aside .content-container {
