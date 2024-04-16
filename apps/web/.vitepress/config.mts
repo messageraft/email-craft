@@ -1,6 +1,6 @@
-import { defineConfig } from 'vitepress';
+import {defineConfig} from 'vitepress';
 
-import { sidebar } from './sidebar.mjs';
+import {sidebar} from './sidebar.mjs';
 
 // TODO: make a vitepress plugins for pnpm, yarn, npm, etc based on
 // https://github.com/vuejs/vitepress/blob/6edc588e5c1f01f50c1e158c705e04c1745db1e0/src/node/markdown/plugins/containers.ts#L56
@@ -34,7 +34,7 @@ export default defineConfig({
       prev: false,
       next: false
     },
-    logo: '/logo.svg',
+    logo: '/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Documentation', link: '/docs/introduction' },
