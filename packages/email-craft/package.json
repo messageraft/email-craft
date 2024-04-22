@@ -1,6 +1,6 @@
 {
   "name": "email-craft",
-  "version": "0.0.50-b",
+  "version": "0.0.51",
   "publishConfig": {
     "access": "public"
   },
